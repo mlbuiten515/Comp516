@@ -1,12 +1,12 @@
 # Comp516 Msc Project #
-## A Convolutional Neural Network Approach to Gravitational Wave Data Analysis ##
+## A Classification of Asteroid Taxonomy and Family ##
 Group 4: 
 
 ## Introduction ##
 
-The objective of this project is to develop a model capable of classifying an asteroids taxonomy and family based on spectral and orbital data.
+The objective of this project is to develop a model capable of classifying an asteroid's taxonomy and family based on spectral and orbital data.
 
-To classify asteroids, we developed both an MLP and Extra Trees model. Since the MLP preformed best on spectral data and Extra Trees performed best on family data. 
+To classify asteroids, we developed both an MLP and Extra Trees model. Since the MLP performed best on spectral data and Extra Trees performed best on family data. 
 
 ## Packages Used ##
 
