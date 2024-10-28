@@ -1,6 +1,6 @@
 # Comp516 Msc Project #
 ## A Classification of Asteroid Taxonomy and Family ##
-Group 4: 
+Group 4: Maddy Buitenhuis, Frankie Chen, Patrick Devine, Dhesikaa Jayachandrakumar, Aldi Purnama, Anjum Rohra, Pakkapol Satthapiti
 
 ## Introduction ##
 
