@@ -22,8 +22,9 @@ def MLP():
     model = Sequential()
 
     model.add(Flatten(input_shape=()))
-    model.add(Dense())
+    model.add(Dense(64))
     model.add(Activation('relu'))
+    model.add(BatchNormalization())
 
     model.add(Dense(2))
     model.add(Activation('softmax'))
