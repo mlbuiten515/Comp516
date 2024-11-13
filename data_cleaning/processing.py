@@ -40,8 +40,15 @@ family_df = family_df.drop(columns=['PROVISIONAL_ID', 'CLUMP_FLAG', 'CONFIDENCE_
 asteroid_familys = pd.concat([family_df, nesvorny_df])
 asteroid_familys = asteroid_familys.drop_duplicates(subset=['ASTEROID_NUMBER'], keep='first')
 
+# Import Bus-Demeo Taxonomy
 
-# Import spectral data and read into pandas 
+taxonomy = pd.read_csv(r'data_cleaning\demeotax.csv')
+taxonomy.columns = ['ASTEROID_NUMBER', 'ASTEROID_NAME', 'PROV_DESIG', 'BUS_DEMEO_CLASS', 'OBS_DATE', 'REF_CODE']
+
+print(taxonomy.head())
+
+
+# Import spectral data and read into pandas
 main_belt_types = {'asteroid number': 'string', 'asteroid name': 'string',
                    'wavelength': float, 'reflectance': float,
                    'uncertainty': float}
