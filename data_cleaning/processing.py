@@ -41,12 +41,18 @@ asteroid_familys = pd.concat([family_df, nesvorny_df])
 asteroid_familys = asteroid_familys.drop_duplicates(subset=['ASTEROID_NUMBER'], keep='first')
 
 
-
 # Import spectral data and read into pandas 
 main_belt_types = {'asteroid number': 'string', 'asteroid name': 'string',
                    'wavelength': float, 'reflectance': float,
                    'uncertainty': float}
 
 main_belt_df = pd.read_csv(r'data_cleaning\Reddy_Main_Belt_Asteroid_Spectra\combined_spectral_data.csv', dtype=main_belt_types)
+
+main_belt_df.rename(columns={'asteroid number': 'ASTEROID_NUMBER'}, inplace=True)
+main_belt_df.rename(columns={'asteroid name': 'ASTEROID_NAME'}, inplace=True)
+
+#main_belt_df['WAVELENTH_REFLECTANCE'] = [main_belt_df['wavelength'], main_belt_df['reflectance']]
+
+main_belt_df = main_belt_df.groupby(['ASTEROID_NAME', 'ASTEROID_NUMBER'], as_index=False)['wavelength'].agg(list)
 
 print(main_belt_df.head())
