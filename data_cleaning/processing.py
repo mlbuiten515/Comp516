@@ -1,5 +1,6 @@
-import pandas as pd
+import glob
 import numpy as np
+import pandas as pd
 
 # Import the nesvorny dataset and read into pandas
 
@@ -45,9 +46,7 @@ asteroid_familys = asteroid_familys.drop_duplicates(subset=['ASTEROID_NUMBER'], 
 taxonomy = pd.read_csv(r'data_cleaning\demeotax.csv')
 taxonomy.columns = ['ASTEROID_NUMBER', 'ASTEROID_NAME', 'PROV_DESIG', 'BUS_DEMEO_CLASS', 'OBS_DATE', 'REF_CODE']
 
-print(taxonomy.head())
-
-
+'''
 # Import spectral data and read into pandas
 main_belt_types = {'asteroid number': 'string', 'asteroid name': 'string',
                    'wavelength': float, 'reflectance': float,
@@ -61,5 +60,39 @@ main_belt_df.rename(columns={'asteroid name': 'ASTEROID_NAME'}, inplace=True)
 #main_belt_df['WAVELENTH_REFLECTANCE'] = [main_belt_df['wavelength'], main_belt_df['reflectance']]
 
 main_belt_df = main_belt_df.groupby(['ASTEROID_NAME', 'ASTEROID_NUMBER'], as_index=False)['wavelength'].agg(list)
+'''
 
-print(main_belt_df.head())
+
+li = []
+
+for filename in glob.glob(r'data_cleaning\marsset2022\*.csv'):
+    x = filename.split('\\')
+    asteroid_num = x[-1].split('_')[0]
+    frame = pd.read_csv(filename, header=None, names=['WAVELENGTH','REFLECTANCE'])
+    frame = frame.pivot_table(index=None, columns='WAVELENGTH', values='REFLECTANCE', aggfunc='first')
+    frame = frame.sort_index(axis=1)
+    frame['ASTEROID_NUMBER'] = asteroid_num
+    frame = frame.rename_axis(index=None, columns=None).reset_index(drop=True)
+    li.append(frame)
+
+
+def wavelength_check(val):
+    if isinstance(val, float):
+
+        sig_digits = str(val)
+    return sig_digits.endswith(('0','5'))
+
+
+marsset_data = pd.concat(li, ignore_index=True)
+
+filtered_columns = [col for col in marsset_data.columns if not isinstance(col, float) or wavelength_check(col)]
+marsset_data = marsset_data[filtered_columns]
+print(marsset_data.head())
+
+'''
+df = pd.read_csv(r'data_cleaning\marsset2022\433_20161028.csv', header=None, names=['WAVELENGTH','REFLECTANCE'])
+df = df.pivot_table(index=None, columns='WAVELENGTH', values='REFLECTANCE', aggfunc='first')
+df = df.rename_axis(index=None, columns=None).reset_index(drop = True)
+
+print(df.head())
+'''
