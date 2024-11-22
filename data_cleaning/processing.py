@@ -45,23 +45,10 @@ asteroid_familys = asteroid_familys.drop_duplicates(subset=['ASTEROID_NUMBER'], 
 
 taxonomy = pd.read_csv(r'data_cleaning\demeotax.csv')
 taxonomy.columns = ['ASTEROID_NUMBER', 'ASTEROID_NAME', 'PROV_DESIG', 'BUS_DEMEO_CLASS', 'OBS_DATE', 'REF_CODE']
+taxonomy = taxonomy.drop(columns=['REF_CODE'])
+taxonomy['ASTEROID_NUMBER'] = taxonomy['ASTEROID_NUMBER'].astype('string')
 
-'''
-# Import spectral data and read into pandas
-main_belt_types = {'asteroid number': 'string', 'asteroid name': 'string',
-                   'wavelength': float, 'reflectance': float,
-                   'uncertainty': float}
-
-main_belt_df = pd.read_csv(r'data_cleaning\Reddy_Main_Belt_Asteroid_Spectra\combined_spectral_data.csv', dtype=main_belt_types)
-
-main_belt_df.rename(columns={'asteroid number': 'ASTEROID_NUMBER'}, inplace=True)
-main_belt_df.rename(columns={'asteroid name': 'ASTEROID_NAME'}, inplace=True)
-
-#main_belt_df['WAVELENTH_REFLECTANCE'] = [main_belt_df['wavelength'], main_belt_df['reflectance']]
-
-main_belt_df = main_belt_df.groupby(['ASTEROID_NAME', 'ASTEROID_NUMBER'], as_index=False)['wavelength'].agg(list)
-'''
-
+# Read in spectral data from marsset2022 and combine
 
 li = []
 
@@ -75,24 +62,34 @@ for filename in glob.glob(r'data_cleaning\marsset2022\*.csv'):
     frame = frame.rename_axis(index=None, columns=None).reset_index(drop=True)
     li.append(frame)
 
+marsset_data = pd.concat(li, ignore_index=True)
+
+# define a function to check if the wavelength ends in 0 or 5 - based on our selected features.
 
 def wavelength_check(val):
     if isinstance(val, float):
-
+        if val < 0.45 or val > 2.45:
+            return False 
         sig_digits = str(val)
     return sig_digits.endswith(('0','5'))
 
 
-marsset_data = pd.concat(li, ignore_index=True)
-
 filtered_columns = [col for col in marsset_data.columns if not isinstance(col, float) or wavelength_check(col)]
 marsset_data = marsset_data[filtered_columns]
-print(marsset_data.head())
 
-'''
-df = pd.read_csv(r'data_cleaning\marsset2022\433_20161028.csv', header=None, names=['WAVELENGTH','REFLECTANCE'])
-df = df.pivot_table(index=None, columns='WAVELENGTH', values='REFLECTANCE', aggfunc='first')
-df = df.rename_axis(index=None, columns=None).reset_index(drop = True)
+# Sort marsset_data columns numerically
+numeric_cols = [col for col in marsset_data.columns if isinstance(col, (int, float))]
+string_cols = [col for col in marsset_data.columns if isinstance(col, str)]
 
-print(df.head())
-'''
+numeric_cols_sorted = sorted(numeric_cols)
+string_cols_sorted = sorted(string_cols)
+
+sorted_columns = numeric_cols_sorted + string_cols_sorted
+
+marsset_data = marsset_data[sorted_columns]
+
+# Add Bus-DeMeo classification to the spectral data based on asteroid number
+
+spectral_data = pd.merge(marsset_data, taxonomy, on=['ASTEROID_NUMBER', 'ASTEROID_NUMBER'])
+
+print(spectral_data)
