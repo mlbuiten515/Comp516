@@ -149,7 +149,7 @@
     149 Medusa            -          S      2   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
     150 Nuwa              -          CX     2   -  -  -   -  -      -   -   -   Cb  s   -   -   C   a  -                     
     151 Abundantia        -          S      2G  -  -  -   -  -      -   -   -   Sl  s   -   -   Sw  a  -                     
-    152 Atala             -          I      7   -  -  -   -  D(S)   65  -   -   S   s   -   -   -   -  ECAS misidentified?   
+    152 Atala             -          I      7   -  -  -   -  D(S)   65  -   -   S   s   -   -   -   -  -   
     153 Hilda             -          P      7G  C0 7I C   2I P      65  -   -   X   s   -   -   X   a  -                     
     154 Bertha            -          -      -   -  -  -   -  -      -   -   -   C   s   C   Cb  -   -  -                     
     155 Scylla            -          XFC    2   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
@@ -777,7 +777,7 @@
     853 Nansenia          -          XD     2   -  -  -   -  -      -   -   -   Ch  s   -   -   -   -  -                     
     856 Backlunda         -          -      -   -  -  -   -  -      -   -   -   C   s   -   -   -   -  -                     
     857 Glasenappia       -          MU     2G  -  -  -   -  -      -   -   -   -   -   S   Sl  -   -  -                     
-    858 El Djezair        -          S      S   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
+    858 El_Djezair        -          S      S   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
     859 Bouzareah         -          -      -   -  -  -   -  -      -   -   -   -   -   C   X   -   -  -                     
     860 Ursina            -          M      7G  M0 7I -   -  -      -   -   -   X   s   -   -   -   -  -                     
     862 Franzia           -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
@@ -914,7 +914,7 @@
    1024 Hale              -          -      -   -  -  -   -  -      -   -   -   Ch  s   Caa X   -   -  -                     
    1025 Riema             -          E      7G  -  -  -   -  -      -   -   -   Xe  s   X   Xe  -   -  -                     
    1028 Lydina            -          C      7   C0 7I C   2I -      -   -   -   -   -   C   C   -   -  -                     
-   1029 La Plata          -          S      2   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
+   1029 La_Plata          -          S      2   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
    1030 Vitja             -          -      -   -  -  -   -  -      -   -   -   -   -   X   X   -   -  -                     
    1031 Arctica           -          CX:    2   -  -  -   -  -      -   -   -   -   -   Caa Ch  -   -  -                     
    1032 Pafuri            -          -      -   -  -  -   -  -      -   -   -   X   s   -   -   -   -  -                     
@@ -1277,7 +1277,7 @@
    1619 Ueta              -          S      7   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
    1620 Geographos        -          S      4G  -  -  -   -  -      -   -   -   S   s   -   -   S   a  -                     
    1621 Druzhba           -          S      2   -  -  -   -  -      -   -   -   -   -   S   Sl  -   -  -                     
-   1625 The NORC          -          C      4   -  -  -   -  -      -   -   -   -   -   Caa Ch  -   -  -                     
+   1625 The_NORC          -          C      4   -  -  -   -  -      -   -   -   -   -   Caa Ch  -   -  -                     
    1626 Sadeya            -          -      -   -  -  -   -  -      -   S   s   -   -   -   -   -   -  -                     
    1627 Ivar              -          S      7   -  -  -   -  S      65  -   -   S   s   -   -   -   -  -                     
    1628 Strobel           -          -      -   -  -  -   -  -      -   X   s   -   -   -   -   -   -  -                     
@@ -1298,7 +1298,7 @@
    1651 Behrens           -          -      -   -  -  -   -  -      -   S   s   -   -   -   -   -   -  -                     
    1653 Yakhontovia       -          -      -   -  -  -   -  -      -   C   s   X   s   -   -   -   -  -                     
    1654 Bojeva            -          -      -   -  -  -   -  -      -   -   -   -   -   K   Xk  -   -  -                     
-   1655 Comas Sola        -          XFU    7   -  -  -   -  -      -   -   -   B   s   -   -   -   -  -                     
+   1655 Comas_Sola        -          XFU    7   -  -  -   -  -      -   -   -   B   s   -   -   -   -  -                     
    1656 Suomi             -          S      S   -  -  -   -  -      -   -   -   -   -   A   Ld  -   -  -                     
    1657 Roemera           -          S      7   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
    1658 Innes             -          AS     2   -  -  -   -  -      -   S   s   -   -   -   -   Sw  c  -                     
@@ -1309,9 +1309,9 @@
    1665 Gaby              -          S      7   -  -  -   -  -      -   -   -   -   -   S   Sq  -   -  -                     
    1667 Pels              -          -      -   -  -  -   -  -      -   -   -   Sa  s   -   -   Sw  a  -                     
    1669 Dagmar            -          G:     2G  -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
-   1677 Tycho Brahe       -          -      -   -  -  -   -  -      -   -   -   -   -   S   Sl  -   -  -                     
+   1677 Tycho_Brahe       -          -      -   -  -  -   -  -      -   -   -   -   -   S   Sl  -   -  -                     
    1679 Nevanlinna        -          -      -   -  -  -   -  -      -   X   s   -   -   -   -   -   -  -                     
-   1680 Per Brahe         -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
+   1680 Per_Brahe         -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    1681 Steinmetz         -          S      2   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
    1685 Toro              -          S      2   -  -  -   -  -      -   -   -   S   s   S   S   Sq  h  -                     
    1689 Floris-Jan        -          -      -   -  -  -   -  -      -   -   -   -   -   D   D   -   -  -                     
@@ -1338,13 +1338,13 @@
    1725 CrAO              -          -      -   -  -  -   -  -      -   S   s   -   -   -   -   -   -  -                     
    1726 Hoffmeister       -          -      -   -  -  -   -  -      -   -   -   Cb  s   -   -   -   -  -                     
    1727 Mette             -          S      S   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
-   1728 Goethe Link       -          -      -   -  -  -   -  -      -   -   -   -   -   A   Ld  -   -  -                     
+   1728 Goethe_Link       -          -      -   -  -  -   -  -      -   -   -   -   -   A   Ld  -   -  -                     
    1729 Beryl             -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    1730 Marceline         -          -      -   -  -  -   -  -      -   -   -   Xe  s   -   -   -   -  -                     
    1731 Smuts             -          -      -   -  -  -   -  -      -   -   -   -   -   C   C   -   -  -                     
    1734 Zhongolovich      -          -      -   -  -  -   -  -      -   -   -   Ch  s   -   -   -   -  -                     
    1738 Oosterhoff        -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
-   1740 Paavo Nurmi       -          F      4   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
+   1740 Paavo_Nurmi       -          F      4   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
    1743 Schmidt           -          -      -   -  -  -   -  -      -   C   s   -   -   -   -   -   -  -                     
    1746 Brouwer           -          D      7G  -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
    1747 Wright            -          AU:    2   -  -  -   -  -      -   -   -   Sl  s   A   Ld  -   -  -                     
@@ -1363,7 +1363,7 @@
    1772 Gagarin           -          -      -   -  -  -   -  -      -   S   s   -   -   -   -   -   -  -                     
    1775 Zimmerwald        -          -      -   -  -  -   -  -      -   -   -   -   -   S   L   -   -  -                     
    1777 Gehrels           -          -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
-   1781 Van Biesbroeck    -          -      -   -  -  -   -  -      -   XS  s   -   -   -   -   -   -  -                     
+   1781 Van_Biesbroeck    -          -      -   -  -  -   -  -      -   XS  s   -   -   -   -   -   -  -                     
    1783 Albitskij         -          -      -   -  -  -   -  -      -   -   -   Ch  s   -   -   -   -  -                     
    1785 Wurm              -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    1792 Reni              -          C:     2   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
@@ -1403,7 +1403,7 @@
    1867 Deiphobus         -          D      7G  D0 7I D   2I -      -   -   -   -   -   -   -   -   -  -                     
    1882 Rauma             -          -      -   -  -  -   -  -      -   -   -   K   s   -   -   -   -  -                     
    1883 Rimito            -          -      -   -  -  -   -  -      -   -   -   -   -   S   S   -   -  -                     
-   1888 Zu Chong-Zhi      -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
+   1888 Zu_Chong-Zhi      -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    1891 Gondola           -          -      -   -  -  -   -  -      -   -   -   X   s   -   -   -   -  -                     
    1892 Lucienne          -          -      -   -  -  -   -  -      -   S   s   -   -   -   -   -   -  -                     
    1901 Moravia           -          -      -   -  -  -   -  -      -   -   -   -   -   B   B   -   -  -                     
@@ -1449,7 +1449,7 @@
    2011 Veteraniya        -          -      -   -  -  -   -  -      -   J   s   -   -   -   -   -   -  -                     
    2014 Vasilevskis       -          -      -   -  -  -   -  -      -   S   s   -   -   S   S   -   -  -                     
    2017 Wesson            -          -      -   -  -  -   -  -      -   S   s   -   -   -   -   -   -  -                     
-   2019 van Albada        -          -      -   -  -  -   -  -      -   -   -   S   s   S   S   -   -  -                     
+   2019 van_Albada        -          -      -   -  -  -   -  -      -   -   -   S   s   S   S   -   -  -                     
    2022 West              -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    2024 McLaughlin        -          -      -   -  -  -   -  -      -   S   s   -   -   -   -   -   -  -                     
    2029 Binomi            -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
@@ -1512,7 +1512,7 @@
    2147 Kharadze          -          -      -   -  -  -   -  -      -   -   -   Ch  s   -   -   -   -  -                     
    2149 Schwambraniya     -          -      -   -  -  -   -  -      -   S   s   -   -   -   -   -   -  -                     
    2150 Nyctimene         -          -      -   -  -  -   -  -      -   -   -   -   -   A   Ld  -   -  -                     
-   2151 Hadwiger          -          CSU    2   -  -  -   -  -      -   -   -   -   -   S   Sl  -   -  1975 EA in TRIAD      
+   2151 Hadwiger          -          CSU    2   -  -  -   -  -      -   -   -   -   -   S   Sl  -   -  -      
    2152 Hannibal          -          -      -   -  -  -   -  -      -   -   -   Ch  s   -   -   -   -  -                     
    2156 Kate              -          S      7   S2 7I -   -  -      -   -   -   -   -   -   -   -   -  -                     
    2157 Ashbrook          -          -      -   -  -  -   -  -      -   -   -   S   s   S   L   S   a  -                     
@@ -1552,7 +1552,7 @@
    2278 Gotz              -          FC     4   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
    2279 Barto             -          F      4   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
    2280 Kunikov           -          -      -   -  -  -   -  -      -   -   -   Sa  s   -   -   -   -  -                     
-   2282 Andres Bello      -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
+   2282 Andres_Bello      -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    2291 Kevo              -          -      -   -  -  -   -  -      -   -   -   -   -   C   C   -   -  -                     
    2292 Seili             -          -      -   -  -  -   -  -      -   -   -   -   -   S   Sl  -   -  -                     
    2296 Kugultinov        -          -      -   -  -  -   -  -      -   -   -   -   -   C   Ch  -   -  -                     
@@ -1561,7 +1561,7 @@
    2305 King              -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    2306 Bauschinger       -          -      -   -  -  -   -  -      -   -   -   X   s   -   -   -   -  -                     
    2308 Schilt            -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
-   2311 El Leoncito       -          D      7G  D0 7I D   2I -      -   -   -   -   -   -   -   -   -  -                     
+   2311 El_Leoncito       -          D      7G  D0 7I D   2I -      -   -   -   -   -   -   -   -   -  -                     
    2312 Duboshin          -          D      7G  D0 7I -   -  -      -   -   -   -   -   -   -   -   -  -                     
    2316 Jo-Ann            -          -      -   -  -  -   -  -      -   -   -   C   s   -   -   -   -  -                     
    2317 Galya             -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
@@ -1582,7 +1582,7 @@
    2365 Interkosmos       -          -      -   -  -  -   -  -      -   S   s   -   -   -   -   -   -  -                     
    2368 Beltrovata        -          SQ     2   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
    2369 Chekhov           -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
-   2370 van Altena        -          -      -   -  -  -   -  -      -   -   -   Cb  s   -   -   -   -  -                     
+   2370 van_Altena        -          -      -   -  -  -   -  -      -   -   -   Cb  s   -   -   -   -  -                     
    2371 Dimitrov          -          -      -   -  -  -   -  -      -   -   -   R   s   -   -   -   -  -                     
    2373 Immo              -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    2374 Vladvysotskij     -          -      -   -  -  -   -  -      -   -   -   -   -   Caa Ch  -   -  -                     
@@ -1605,11 +1605,11 @@
    2410 Morrison          -          -      -   -  -  -   -  -      -   -   -   Sl  s   -   -   -   -  -                     
    2411 Zellner           -          S      4   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
    2420 Ciurlionis        -          -      -   -  -  -   -  -      -   S   s   -   -   -   -   -   -  -                     
-   2422 Perovskaya        -          S      2   -  -  -   -  -      -   -   -   -   -   -   -   -   -  1975 GB in TRIAD      
+   2422 Perovskaya        -          S      2   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -     
    2423 Ibarruri          -          -      -   -  -  -   -  -      -   -   -   A   s   -   -   -   -  -                     
    2427 Kobzar            -          -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
    2428 Kamenyar          -          -      -   -  -  -   -  -      -   -   -   Ch  s   -   -   -   -  -                     
-   2430 Bruce Helin       -          S      2   -  -  -   -  -      -   -   -   Sl  s   -   -   -   -  -                     
+   2430 Bruce_Helin       -          S      2   -  -  -   -  -      -   -   -   Sl  s   -   -   -   -  -                     
    2438 Oleshko           -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    2440 Educatio          -          -      -   -  -  -   -  -      -   S   s   -   -   -   -   -   -  -                     
    2442 Corbett           -          -      -   -  -  -   -  -      -   J   s   -   -   -   -   V   c  -                     
@@ -1663,13 +1663,13 @@
    2606 Odessa            -          -      -   -  -  -   -  -      -   -   -   Xk  s   -   -   -   -  -                     
    2608 Seneca            -          S      2   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
    2612 Kathryn           -          -      -   -  -  -   -  -      -   -   -   -   -   T   T   -   -  -                     
-   2625 Jack London       -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
+   2625 Jack_London       -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    2629 Rudra             -          -      -   -  -  -   -  -      -   -   -   B   s   -   -   -   -  -                     
    2631 Zhejiang          -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
-   2634 James Bradley     -          -      -   -  -  -   -  -      -   -   -   -   -   X   X   -   -  -                     
+   2634 James_Bradley     -          -      -   -  -  -   -  -      -   -   -   -   -   X   X   -   -  -                     
    2635 Huggins           -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    2640 Hallstrom         -          -      -   -  -  -   -  -      -   -   -   V   s   -   -   -   -  -                     
-   2645 Daphne Plane      -          -      -   -  -  -   -  -      -   X   s   -   -   -   -   -   -  -                     
+   2645 Daphne_Plane      -          -      -   -  -  -   -  -      -   X   s   -   -   -   -   -   -  -                     
    2651 Karen             -          -      -   -  -  -   -  -      -   -   -   -   -   Caa Ch  -   -  -                     
    2653 Principia         -          -      -   -  -  -   -  -      -   -   -   V   s   -   -   -   -  -                     
    2655 Guangxi           -          -      -   -  -  -   -  -      -   -   -   -   -   K   Xk  -   -  -                     
@@ -1679,12 +1679,12 @@
    2681 Ostrovskij        -          -      -   -  -  -   -  -      -   -   -   Xk  s   -   -   -   -  -                     
    2685 Masursky          -          -      -   -  -  -   -  -      -   -   -   -   -   S   Sl  -   -  -                     
    2703 Rodari            -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
-   2704 Julian Loewe      -          -      -   -  -  -   -  -      -   -   -   V   s   -   -   -   -  -                     
+   2704 Julian_Loewe      -          -      -   -  -  -   -  -      -   -   -   V   s   -   -   -   -  -                     
    2708 Burns             -          -      -   -  -  -   -  -      -   -   -   B   s   -   -   -   -  -                     
    2709 Sagan             -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    2715 Mielikki          -          -      -   -  -  -   -  -      -   -   -   A   s   -   -   Sw  a  -                     
    2717 Tellervo          -          -      -   -  -  -   -  -      -   -   -   -   -   S   S   -   -  -                     
-   2720 Pyotr Pervyj      -          -      -   -  -  -   -  -      -   -   -   C   s   -   -   -   -  -                     
+   2720 Pyotr_Pervyj      -          -      -   -  -  -   -  -      -   -   -   C   s   -   -   -   -  -                     
    2724 Orlov             -          -      -   -  -  -   -  -      -   -   -   K   s   -   -   -   -  -                     
    2728 Yatskiv           -          -      -   -  -  -   -  -      -   C   s   -   -   -   -   -   -  -                     
    2730 Barks             -          -      -   -  -  -   -  -      -   -   -   C   s   -   -   -   -  -                     
@@ -1695,7 +1695,7 @@
    2737 Kotka             -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    2744 Birgitta          -          S      4   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    2746 Hissao            -          -      -   -  -  -   -  -      -   -   -   Sr  s   -   -   -   -  -                     
-   2748 Patrick Gene      -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
+   2748 Patrick_Gene      -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    2750 Loviisa           -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    2754 Efimov            -          -      -   -  -  -   -  -      -   -   -   Sa  s   -   -   -   -  -                     
    2760 Kacha             -          X      4   -  -  P   2I -      -   -   -   -   -   -   -   -   -  -                     
@@ -1711,9 +1711,9 @@
    2795 Lepage            -          -      -   -  -  -   -  -      -   -   -   V   s   -   -   -   -  -                     
    2796 Kron              -          -      -   -  -  -   -  -      -   -   -   -   -   S   L   -   -  -                     
    2801 Huygens           -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
-   2807 Karl Marx         -          -      -   -  -  -   -  -      -   -   -   C   s   -   -   -   -  -                     
+   2807 Karl_Marx         -          -      -   -  -  -   -  -      -   -   -   C   s   -   -   -   -  -                     
    2809 Vernadskij        -          BFX    4   -  -  -   -  -      -   -   -   B   s   -   -   -   -  -                     
-   2810 Lev Tolstoj       -          -      -   -  -  -   -  -      -   -   -   -   -   S   S   -   -  -                     
+   2810 Lev_Tolstoj       -          -      -   -  -  -   -  -      -   -   -   -   -   S   S   -   -  -                     
    2813 Zappala           -          -      -   -  -  -   -  -      -   -   -   T   s   -   -   -   -  -                     
    2815 Soma              -          -      -   -  -  -   -  -      -   -   -   -   -   S   S   -   -  -                     
    2816 Pien              -          -      -   -  -  -   -  -      -   -   -   B   s   -   -   -   -  -                     
@@ -1722,7 +1722,7 @@
    2827 Vellamo           -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    2829 Bobhope           -          -      -   -  -  -   -  -      -   -   -   -   -   Caa Ch  -   -  -                     
    2830 Greenwich         -          S      4   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
-   2834 Christy Carol     -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
+   2834 Christy_Carol     -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    2840 Kallavesi         -          -      -   -  -  -   -  -      -   -   -   Sl  s   -   -   -   -  -                     
    2841 Puijo             -          -      -   -  -  -   -  -      -   -   -   -   -   S   Sk  -   -  -                     
    2850 Mozhaiskij        -          -      -   -  -  -   -  -      -   -   -   Ld  s   -   -   -   -  -                     
@@ -1734,7 +1734,7 @@
    2864 Soderblom         -          -      -   -  -  -   -  -      -   -   -   Ch  s   -   -   -   -  -                     
    2872 Gentelec          -          -      -   -  -  -   -  -      -   -   -   D   s   -   -   -   -  -                     
    2873 Binzel            -          -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   Sq  a  -                     
-   2874 Jim Young         -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
+   2874 Jim_Young         -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    2875 Lagerkvist        -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   S   a  -                     
    2879 Shimizu           -          -      -   -  -  -   -  -      -   -   -   X   s   -   -   -   -  -                     
    2881 Meiden            -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
@@ -1748,7 +1748,7 @@
    2911 Miahelena         -          -      -   -  -  -   -  -      -   -   -   S   s   S   S   Sw  a  -                     
    2912 Lapalma           -          -      -   -  -  -   -  -      -   -   -   V   s   -   -   V   a  -                     
    2914 Glarnisch         -          -      -   -  -  -   -  -      -   -   -   -   -   S   S   -   -  -                     
-   2917 Sawyer Hogg       -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
+   2917 Sawyer_Hogg       -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    2920 Automedon         -          -      -   -  -  -   -  -      -   D   s   -   -   -   -   -   -  -                     
    2923 Schuyler          -          -      -   -  -  -   -  -      -   C   s   -   -   -   -   -   -  -                     
    2925 Beatty            -          -      -   -  -  -   -  -      -   -   -   Cgh s   -   -   -   -  -                     
@@ -1787,7 +1787,7 @@
    3036 Krat              -          -      -   -  -  -   -  -      -   -   -   -   -   B   B   -   -  -                     
    3037 Alku              -          -      -   -  -  -   -  -      -   -   -   C   s   -   -   -   -  -                     
    3040 Kozai             -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
-   3043 San Diego         -          -      -   -  -  -   -  -      -   -   -   -   -   A   A   -   -  -                     
+   3043 San_Diego         -          -      -   -  -  -   -  -      -   -   -   -   -   A   A   -   -  -                     
    3060 Delcano           -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    3063 Makhaon           -          -      -   -  -  -   -  -      -   -   -   -   -   D   D   -   -  -                     
    3065 Sarahill          -          -      -   -  -  -   -  -      -   -   -   Ch  s   -   -   -   -  -                     
@@ -1852,12 +1852,12 @@
    3262 Miune             -          -      -   -  -  -   -  -      -   -   -   X   s   -   -   -   -  -                     
    3265 Fletcher          -          -      -   -  -  -   -  -      -   -   -   V   s   -   -   -   -  -                     
    3267 Glo               -          -      -   -  -  -   -  -      -   -   -   -   -   S   K   -   -  -                     
-   3268 De Sanctis        -          -      -   -  -  -   -  -      -   V   s   -   -   -   -   -   -  -                     
+   3268 De_Sanctis        -          -      -   -  -  -   -  -      -   V   s   -   -   -   -   -   -  -                     
    3274 Maillen           -          -      -   -  -  -   -  -      -   -   -   -   -   C   C   -   -  -                     
-   3285 Ruth Wolfe        -          -      -   -  -  -   -  -      -   S   s   -   -   -   -   -   -  -                     
+   3285 Ruth_Wolfe        -          -      -   -  -  -   -  -      -   S   s   -   -   -   -   -   -  -                     
    3287 Olmstead          -          -      -   -  -  -   -  -      -   -   -   L   s   -   -   -   -  -                     
    3288 Seleucus          -          S      7G  -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
-   3296 Bosque Alegre     -          -      -   -  -  -   -  -      -   -   -   -   -   S   Sk  -   -  -                     
+   3296 Bosque_Alegre     -          -      -   -  -  -   -  -      -   -   -   -   -   S   Sk  -   -  -                     
    3300 McGlasson         -          -      -   -  -  -   -  -      -   -   -   -   -   S   S   -   -  -                     
    3306 Byron             -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    3307 Athabasca         -          -      -   -  -  -   -  -      -   -   -   V   s   -   -   -   -  -                     
@@ -1913,7 +1913,7 @@
    3491 Fridolin          -          -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   S   a  -                     
    3492 Petra-Pepi        -          -      -   -  -  -   -  -      -   -   -   -   -   S   S   -   -  -                     
    3493 Stepanov          -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
-   3494 Purple Mountain   -          -      -   -  -  -   -  -      -   V   s   -   -   -   -   -   -  -                     
+   3494 Purple_Mountain   -          -      -   -  -  -   -  -      -   V   s   -   -   -   -   -   -  -                     
    3498 Belton            -          -      -   -  -  -   -  -      -   -   -   V   s   -   -   -   -  -                     
    3501 Olegiya           -          -      -   -  -  -   -  -      -   D   s   -   -   -   -   -   -  -                     
    3507 Vilas             -          -      -   -  -  -   -  -      -   -   -   Ch  s   B   Cgh -   -  -                     
@@ -1929,7 +1929,7 @@
    3545 Gaffey            -          -      -   -  -  -   -  -      -   -   -   Sa  s   -   -   -   -  -                     
    3546 Atanasoff         -          -      -   -  -  -   -  -      -   -   -   Sa  s   -   -   -   -  -                     
    3551 Verenia           -          V      4   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
-   3552 Don Quixote       -          D      4   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
+   3552 Don_Quixote       -          D      4   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
    3559 Violaumayer       -          -      -   -  -  -   -  -      -   C   s   -   -   -   -   -   -  -                     
    3563 Canterbury        -          -      -   -  -  -   -  -      -   -   -   Ch  s   -   -   -   -  -                     
    3566 Levitan           -          -      -   -  -  -   -  -      -   -   -   B   s   -   -   -   -  -                     
@@ -1949,7 +1949,7 @@
    3627 Sayers            -          -      -   -  -  -   -  -      -   -   -   B   s   -   -   -   -  -                     
    3628 Boznemcova        -          -      -   -  -  -   -  -      -   O   s   O   s   -   -   O   a  -                     
    3630 Lubomir           -          -      -   -  -  -   -  -      -   -   -   Ch  s   -   -   -   -  -                     
-   3635 Kreutz            1981 WO1   -      -   -  -  -   -  -      -   -   -   S   s   A   A   Srw a  -                     
+   3635 Kreutz            1981_WO1   -      -   -  -  -   -  -      -   -   -   S   s   A   A   Srw a  -                     
    3636 Pajdusakova       -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    3640 Gostin            -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    3642 Frieden           -          -      -   -  -  -   -  -      -   -   -   C   s   -   -   -   -  -                     
@@ -2031,7 +2031,7 @@
    3888 Hoyt              -          -      -   -  -  -   -  -      -   -   -   -   -   S   Sq  -   -  -                     
    3894 Williamcooke      -          -      -   -  -  -   -  -      -   -   -   -   -   S   Sl  -   -  -                     
    3900 Knezevic          -          -      -   -  -  -   -  -      -   -   -   V   s   -   -   -   -  -                     
-   3903 Kliment Ohridski  -          -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   S   a  -                     
+   3903 Kliment_Ohridski  -          -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   S   a  -                     
    3906 Chao              -          -      -   -  -  -   -  -      -   -   -   -   -   T   T   -   -  -                     
    3908 Nyx               -          V      4G  -  -  -   -  -      -   -   -   *** s   -   -   V   a  -                     
    3910 Liszt             -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   S   a  -                     
@@ -2086,7 +2086,7 @@
    4116 Elachi            -          -      -   -  -  -   -  -      -   -   -   Sl  s   S   Sl  -   -  -                     
    4121 Carlin            -          -      -   -  -  -   -  -      -   -   -   -   -   S   S   -   -  -                     
    4124 Herriot           -          -      -   -  -  -   -  -      -   -   -   B   s   -   -   -   -  -                     
-   4125 Lew Allen         -          -      -   -  -  -   -  -      -   -   -   -   -   A   Ld  -   -  -                     
+   4125 Lew_Allen         -          -      -   -  -  -   -  -      -   -   -   -   -   A   Ld  -   -  -                     
    4127 Kyogoku           -          -      -   -  -  -   -  -      -   -   -   -   -   S   Sq  -   -  -                     
    4132 Bartok            -          -      -   -  -  -   -  -      -   -   -   -   -   S   Sl  -   -  -                     
    4135 Svetlanov         -          -      -   -  -  -   -  -      -   -   -   Ch  s   -   -   -   -  -                     
@@ -2100,15 +2100,15 @@
    4165 Didkovskij        -          -      -   -  -  -   -  -      -   XS  s   -   -   -   -   -   -  -                     
    4175 Billbaum          -          -      -   -  -  -   -  -      -   -   -   -   -   S   Sa  -   -  -                     
    4179 Toutatis          -          -      -   -  -  -   -  -      -   S   s   Sk  s   -   -   Sq  a  -                     
-   4182 Mount Locke       -          -      -   -  -  -   -  -      -   -   -   Sr  s   -   -   -   -  -                     
+   4182 Mount_Locke       -          -      -   -  -  -   -  -      -   -   -   Sr  s   -   -   -   -  -                     
    4183 Cuno              -          -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
    4188 Kitezh            -          -      -   -  -  -   -  -      -   -   -   V   s   -   -   V   a  -                     
    4191 Assesse           -          -      -   -  -  -   -  -      -   -   -   -   -   S   Sl  -   -  -                     
    4194 Sweitzer          -          -      -   -  -  -   -  -      -   -   -   Cb  s   -   -   -   -  -                     
-   4197 -                 1982 TA    -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   Sq  a  -                     
+   4197 -                 1982_TA    -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   Sq  a  -                     
    4200 Shizukagozen      -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    4201 Orosz             -          -      -   -  -  -   -  -      -   -   -   -   -   X   X   -   -  -                     
-   4205 David Hughes      -          -      -   -  -  -   -  -      -   -   -   Xe  s   -   -   -   -  -                     
+   4205 David_Hughes      -          -      -   -  -  -   -  -      -   -   -   Xe  s   -   -   -   -  -                     
    4215 Kamo              -          -      -   -  -  -   -  -      -   J   s   V   s   -   -   -   -  -                     
    4219 Nakamura          -          -      -   -  -  -   -  -      -   C   s   -   -   -   -   -   -  -                     
    4220 Flood             -          -      -   -  -  -   -  -      -   -   -   -   -   Caa B   -   -  -                     
@@ -2159,13 +2159,13 @@
    4448 Phildavis         -          -      -   -  -  -   -  -      -   -   -   -   -   S   Sk  -   -  -                     
    4451 Grieve            -          -      -   -  -  -   -  -      -   -   -   -   -   -   -   Svw d  -                     
    4456 Mawson            -          -      -   -  -  -   -  -      -   -   -   Ld  s   -   -   -   -  -                     
-   4457 van Gogh          -          -      -   -  -  -   -  -      -   -   -   -   -   S   L   -   -  -                     
+   4457 van_Gogh          -          -      -   -  -  -   -  -      -   -   -   -   -   S   L   -   -  -                     
    4460 Bihoro            -          -      -   -  -  -   -  -      -   -   -   -   -   X   X   -   -  -                     
    4461 Sayama            -          -      -   -  -  -   -  -      -   -   -   X   s   -   -   -   -  -                     
    4479 -                 -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    4483 Petofi            -          -      -   -  -  -   -  -      -   -   -   -   -   X   X   -   -  -                     
    4484 Sif               -          -      -   -  -  -   -  -      -   -   -   -   -   B   B   -   -  -                     
-   4489 -                 1988 AK    -      -   -  -  -   -  -      -   -   -   -   -   D   D   -   -  -                     
+   4489 -                 1988_AK    -      -   -  -  -   -  -      -   -   -   -   -   D   D   -   -  -                     
    4490 Bambery           -          -      -   -  -  -   -  -      -   -   -   -   -   A   Sa  -   -  -                     
    4491 Otaru             -          -      -   -  -  -   -  -      -   -   -   Sa  s   -   -   -   -  -                     
    4497 Taguchi           -          -      -   -  -  -   -  -      -   -   -   -   -   S   Sl  -   -  -                     
@@ -2210,24 +2210,24 @@
    4678 Ninian            -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    4682 Bykov             -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    4686 Maisica           -          -      -   -  -  -   -  -      -   -   -   B   s   -   -   -   -  -                     
-   4688 -                 1980 WF    QU     7G  -  -  -   -  -      -   -   -   -   -   -   -   Q   d  -                     
-   4695 -                 1985 RU3   -      -   -  -  -   -  -      -   -   -   -   -   S   K   -   -  -                     
+   4688 -                 1980_WF    QU     7G  -  -  -   -  -      -   -   -   -   -   -   -   Q   d  -                     
+   4695 -                 1985_RU3   -      -   -  -  -   -  -      -   -   -   -   -   S   K   -   -  -                     
    4701 Milani            -          -      -   -  -  -   -  -      -   -   -   Xe  s   -   -   -   -  -                     
    4702 Berounka          -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
-   4706 -                 1988 DR    -      -   -  -  -   -  -      -   -   -   S   s   S   S   -   -  -                     
+   4706 -                 1988_DR    -      -   -  -  -   -  -      -   -   -   S   s   S   S   -   -  -                     
    4711 Kathy             -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    4713 Steel             -          -      -   -  -  -   -  -      -   -   -   A   s   A   Sl  Sw  a  -                     
    4718 Araki             -          -      -   -  -  -   -  -      -   -   -   Sl  s   -   -   -   -  -                     
    4719 Burnaby           -          -      -   -  -  -   -  -      -   -   -   C   s   -   -   -   -  -                     
    4725 Milone            -          -      -   -  -  -   -  -      -   -   -   -   -   S   Sl  -   -  -                     
    4726 Federer           -          -      -   -  -  -   -  -      -   -   -   L   s   -   -   -   -  -                     
-   4730 Xingmingzhou      1980 XZ    -      -   -  -  -   -  -      -   -   -   -   -   Caa Ch  -   -  -                     
+   4730 Xingmingzhou      1980_XZ    -      -   -  -  -   -  -      -   -   -   -   -   Caa Ch  -   -  -                     
    4733 ORO               -          -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
    4737 Kiladze           -          -      -   -  -  -   -  -      -   -   -   L   s   -   -   L   a  -                     
    4744 -                 -          -      -   -  -  -   -  -      -   -   -   D   s   -   -   -   -  -                     
    4748 Tokiwagozen       -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    4750 Mukai             -          -      -   -  -  -   -  -      -   -   -   X   s   -   -   -   -  -                     
-   4759 -                 1978 VG10  -      -   -  -  -   -  -      -   -   -   -   -   C   Cb  -   -  -                     
+   4759 -                 1978_VG10  -      -   -  -  -   -  -      -   -   -   -   -   C   Cb  -   -  -                     
    4761 Urrutia           -          -      -   -  -  -   -  -      -   S   s   -   -   -   -   -   -  -                     
    4764 Joneberhart       -          -      -   -  -  -   -  -      -   -   -   -   -   X   X   -   -  -                     
    4767 Sutoku            -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
@@ -2242,7 +2242,7 @@
    4824 Stradonice        -          -      -   -  -  -   -  -      -   -   -   Sr  s   -   -   -   -  -                     
    4826 Wilhelms          -          -      -   -  -  -   -  -      -   -   -   -   -   S   Sq  -   -  -                     
    4833 Meges             -          -      -   -  -  -   -  -      -   -   -   -   -   D   D   -   -  -                     
-   4835 -                 1989 BQ    -      -   -  -  -   -  -      -   -   -   -   -   D   D   -   -  -                     
+   4835 -                 1989_BQ    -      -   -  -  -   -  -      -   -   -   -   -   D   D   -   -  -                     
    4838 Billmclaughlin    -          -      -   -  -  -   -  -      -   -   -   Xc  s   -   -   -   -  -                     
    4839 Daisetsuzan       -          -      -   -  -  -   -  -      -   -   -   Xc  s   -   -   -   -  -                     
    4843 Megantic          -          -      -   -  -  -   -  -      -   -   -   -   -   X   X   -   -  -                     
@@ -2286,9 +2286,9 @@
    5013 Suzhousanzhong    -          -      -   -  -  -   -  -      -   -   -   Sl  s   -   -   Sw  a  -                     
    5016 Migirenko         -          -      -   -  -  -   -  -      -   -   -   -   -   S   L   -   -  -                     
    5038 Overbeek          -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
-   5045 -                 1978 UL2   -      -   -  -  -   -  -      -   -   -   -   -   C   B   -   -  -                     
+   5045 -                 1978_UL2   -      -   -  -  -   -  -      -   -   -   -   -   C   B   -   -  -                     
    5051 Ralph             -          -      -   -  -  -   -  -      -   -   -   Sr  s   -   -   -   -  -                     
-   5057 -                 1987 DC6   -      -   -  -  -   -  -      -   -   -   -   -   B   Cg  -   -  -                     
+   5057 -                 1987_DC6   -      -   -  -  -   -  -      -   -   -   -   -   B   Cg  -   -  -                     
    5065 Johnstone         -          -      -   -  -  -   -  -      -   C   s   -   -   -   -   -   -  -                     
    5067 Occidental        -          -      -   -  -  -   -  -      -   -   -   L   s   -   -   -   -  -                     
    5069 Tokeidai          -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
@@ -2308,7 +2308,7 @@
    5134 Ebilson           -          -      -   -  -  -   -  -      -   -   -   Sl  s   -   -   -   -  -                     
    5142 Okutama           -          -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
    5143 Heracles          -          -      -   -  -  -   -  -      -   V   s   O   s   -   -   Q   a  -                     
-   5145 Pholus            -          Z      3   -  -  -   -  -      -   -   -   -   -   -   -   -   -  Mueller et al. (1992) 
+   5145 Pholus            -          Z      3   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -
    5147 Maruyama          -          -      -   -  -  -   -  -      -   -   -   -   -   S   Sl  -   -  -                     
    5159 Burbine           -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    5184 Cavaille-Coll     -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
@@ -2317,7 +2317,7 @@
    5208 Royer             -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    5214 Oozora            -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    5215 Tsurui            -          -      -   -  -  -   -  -      -   -   -   -   -   S   Sl  -   -  -                     
-   5216 -                 1941 HA    -      -   -  -  -   -  -      -   -   -   -   -   A   Sl  -   -  -                     
+   5216 -                 1941_HA    -      -   -  -  -   -  -      -   -   -   -   -   A   Sl  -   -  -                     
    5222 Ioffe             -          -      -   -  -  -   -  -      -   -   -   B   s   -   -   -   -  -                     
    5227 -                 -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    5230 Asahina           -          -      -   -  -  -   -  -      -   -   -   S   s   S   Sl  S   a  -                     
@@ -2339,13 +2339,13 @@
    5344 Ryabov            -          -      -   -  -  -   -  -      -   -   -   B   s   -   -   -   -  -                     
    5348 -                 -          -      -   -  -  -   -  -      -   -   -   Ch  s   -   -   -   -  -                     
    5349 Paulharris        -          -      -   -  -  -   -  -      -   -   -   C   s   -   -   -   -  -                     
-   5362 -                 1978 CH    -      -   -  -  -   -  -      -   -   -   -   -   D   T   -   -  -                     
+   5362 -                 1978_CH    -      -   -  -  -   -  -      -   -   -   -   -   D   T   -   -  -                     
    5364 -                 -          -      -   -  -  -   -  -      -   -   -   C   s   -   -   -   -  -                     
    5379 Abehiroshi        -          -      -   -  -  -   -  -      -   -   -   V   s   -   -   Sr  a  -                     
    5392 Parker            -          -      -   -  -  -   -  -      -   -   -   Sl  s   -   -   -   -  -                     
    5397 -                 -          -      -   -  -  -   -  -      -   -   -   Sl  s   -   -   -   -  -                     
    5401 Minamioda         -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   Sw  a  -                     
-   5407 -                 1992 AX    -      -   -  -  -   -  -      -   -   -   Sk  s   -   -   S   a  -                     
+   5407 -                 1992_AX    -      -   -  -  -   -  -      -   -   -   Sk  s   -   -   S   a  -                     
    5416 -                 -          -      -   -  -  -   -  -      -   -   -   C   s   -   -   -   -  -                     
    5438 Lorre             -          -      -   -  -  -   -  -      -   -   -   C   s   -   -   -   -  -                     
    5448 Siebold           -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
@@ -2359,48 +2359,48 @@
    5534 -                 -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    5552 Studnicka         -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    5553 Chodas            -          -      -   -  -  -   -  -      -   -   -   Ch  s   -   -   -   -  -                     
-   5559 -                 1990 MV    -      -   -  -  -   -  -      -   -   -   -   -   S   Sl  -   -  -                     
+   5559 -                 1990_MV    -      -   -  -  -   -  -      -   -   -   -   -   S   Sl  -   -  -                     
    5563 -                 -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    5565 Ukyounodaibu      -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    5576 Albanese          -          -      -   -  -  -   -  -      -   -   -   Xk  s   -   -   -   -  -                     
    5585 Parks             -          -      -   -  -  -   -  -      -   -   -   Ch  s   -   -   -   -  -                     
-   5587 -                 1990 SB    -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   Sr  a  -                     
+   5587 -                 1990_SB    -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   Sr  a  -                     
    5588 -                 -          -      -   -  -  -   -  -      -   -   -   X   s   -   -   -   -  -                     
    5591 Koyo              -          -      -   -  -  -   -  -      -   -   -   Cb  s   -   -   -   -  -                     
    5592 Oshima            -          -      -   -  -  -   -  -      -   -   -   -   -   Caa Ch  -   -  -                     
    5595 Roth              -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
-   5600 -                 1991 UY    -      -   -  -  -   -  -      -   -   -   -   -   S   Sl  -   -  -                     
-   5604 -                 1992 FE    -      -   -  -  -   -  -      -   -   -   -   -   -   -   V   f  -                     
+   5600 -                 1991_UY    -      -   -  -  -   -  -      -   -   -   -   -   S   Sl  -   -  -                     
+   5604 -                 1992_FE    -      -   -  -  -   -  -      -   -   -   -   -   -   -   V   f  -                     
    5610 Balster           -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    5622 -                 -          -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
    5626 -                 -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    5632 Ingelehmann       -          -      -   -  -  -   -  -      -   -   -   Xc  s   -   -   -   -  -                     
-   5639 -                 1989 PE    -      -   -  -  -   -  -      -   -   -   -   -   C   B   -   -  -                     
+   5639 -                 1989_PE    -      -   -  -  -   -  -      -   -   -   -   -   C   B   -   -  -                     
    5641 McCleese          -          -      -   -  -  -   -  -      -   -   -   A   s   -   -   Sw  a  -                     
    5646 -                 -          -      -   -  -  -   -  -      -   -   -   *** s   -   -   -   -  -                     
    5647 -                 -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
-   5648 -                 1990 VU1   -      -   -  -  -   -  -      -   -   -   -   -   D   D   -   -  -                     
+   5648 -                 1990_VU1   -      -   -  -  -   -  -      -   -   -   -   -   D   D   -   -  -                     
    5649 Donnashirley      -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    5651 Traversa          -          -      -   -  -  -   -  -      -   -   -   -   -   X   X   -   -  -                     
-   5660 -                 1974 MA    -      -   -  -  -   -  -      -   -   -   Q   s   -   -   Q   a  -                     
+   5660 -                 1974_MA    -      -   -  -  -   -  -      -   -   -   Q   s   -   -   Q   a  -                     
    5678 DuBridge          -          -      -   -  -  -   -  -      -   -   -   C   s   -   -   -   -  -                     
    5685 Sanenobufukui     -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   S   a  -                     
    5690 -                 -          -      -   -  -  -   -  -      -   -   -   B   s   -   -   -   -  -                     
    5732 -                 -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    5751 Zao               -          -      -   -  -  -   -  -      -   -   -   X   s   X   X   -   -  -                     
    5817 Robertfrazer      -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   Sr  a  -                     
-   5818 -                 1989 RC1   -      -   -  -  -   -  -      -   -   -   -   -   D   D   -   -  -                     
+   5818 -                 1989_RC1   -      -   -  -  -   -  -      -   -   -   -   -   D   D   -   -  -                     
    5832 Martaprincipe     -          -      -   -  -  -   -  -      -   -   -   -   -   Caa C   -   -  -                     
    5836 -                 -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    5840 Raybrown          -          -      -   -  -  -   -  -      -   -   -   Ld  s   -   -   L   a  -                     
    5870 Baltimore         -          -      -   -  -  -   -  -      -   -   -   -   -   B   B   -   -  -                     
    5892 -                 -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
-   5914 -                 1990 WK    -      -   -  -  -   -  -      -   -   -   -   -   D   D   -   -  -                     
+   5914 -                 1990_WK    -      -   -  -  -   -  -      -   -   -   -   -   D   D   -   -  -                     
    5956 d'Alembert        -          -      -   -  -  -   -  -      -   -   -   C   s   -   -   -   -  -                     
    5959 Shaklan           -          -      -   -  -  -   -  -      -   -   -   -   -   X   X   -   -  -                     
    5965 -                 -          -      -   -  -  -   -  -      -   -   -   Sa  s   -   -   -   -  -                     
    6005 -                 -          -      -   -  -  -   -  -      -   -   -   C   s   -   -   -   -  -                     
-   6047 -                 1991 TB1   -      -   -  -  -   -  -      -   -   -   S   s   -   -   S   a  -                     
+   6047 -                 1991_TB1   -      -   -  -  -   -  -      -   -   -   S   s   -   -   S   a  -                     
    6051 Anaximenes        -          -      -   -  -  -   -  -      -   -   -   -   -   X   X   -   -  -                     
    6053 -                 -          -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
    6057 Robbia            -          -      -   -  -  -   -  -      -   -   -   -   -   X   X   -   -  -                     
@@ -2420,19 +2420,19 @@
    6239 Minos             -          -      -   -  -  -   -  -      -   -   -   -   -   -   -   Sqw e  -                     
    6249 Jennifer          -          -      -   -  -  -   -  -      -   -   -   Xe  s   -   -   -   -  -                     
    6283 -                 -          -      -   -  -  -   -  -      -   -   -   Ch  s   -   -   -   -  -                     
-   6297 -                 1988 VZ1   -      -   -  -  -   -  -      -   -   -   -   -   B   Cb  -   -  -                     
-   6307 -                 1989 WL7   -      -   -  -  -   -  -      -   -   -   -   -   S   K   -   -  -                     
+   6297 -                 1988_VZ1   -      -   -  -  -   -  -      -   -   -   -   -   B   Cb  -   -  -                     
+   6307 -                 1989_WL7   -      -   -  -  -   -  -      -   -   -   -   -   S   K   -   -  -                     
    6310 Jankonke          -          -      -   -  -  -   -  -      -   -   -   -   -   K   Xe  -   -  -                     
    6354 Vangelis          -          -      -   -  -  -   -  -      -   -   -   Cb  s   -   -   -   -  -                     
    6364 -                 -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    6384 Kervin            -          -      -   -  -  -   -  -      -   -   -   -   -   S   Sq  -   -  -                     
    6386 Keithnoll         -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   S   a  -                     
-   6394 -                 1990 QM2   -      -   -  -  -   -  -      -   -   -   -   -   X   Xe  -   -  -                     
+   6394 -                 1990_QM2   -      -   -  -  -   -  -      -   -   -   -   -   X   Xe  -   -  -                     
    6410 Fujiwara          -          -      -   -  -  -   -  -      -   -   -   Ch  s   -   -   -   -  -                     
    6411 Tamaga            -          -      -   -  -  -   -  -      -   -   -   -   -   -   -   B   e  -                     
    6447 Terrycole         -          -      -   -  -  -   -  -      -   -   -   -   -   X   Xe  -   -  -                     
-   6455 -                 1992 HE    -      -   -  -  -   -  -      -   -   -   S   s   -   -   Srw a  -                     
-   6461 -                 1993 VB5   -      -   -  -  -   -  -      -   -   -   -   -   X   Xe  -   -  -                     
+   6455 -                 1992_HE    -      -   -  -  -   -  -      -   -   -   S   s   -   -   Srw a  -                     
+   6461 -                 1993_VB5   -      -   -  -  -   -  -      -   -   -   -   -   X   Xe  -   -  -                     
    6489 Golevka           -          -      -   -  -  -   -  -      -   -   -   Q   s   -   -   -   -  -                     
    6493 Cathybennett      -          -      -   -  -  -   -  -      -   -   -   -   -   X   Xe  -   -  -                     
    6500 Kodaira           -          -      -   -  -  -   -  -      -   -   -   B   s   -   -   -   -  -                     
@@ -2452,9 +2452,9 @@
    6907 -                 -          -      -   -  -  -   -  -      -   -   -   C   s   -   -   -   -  -                     
    6908 Kunimoto          -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    6916 Lewispearce       -          -      -   -  -  -   -  -      -   -   -   -   -   A   Sl  -   -  -                     
-   6974 -                 1992 MC    -      -   -  -  -   -  -      -   -   -   -   -   S   L   -   -  -                     
+   6974 -                 1992_MC    -      -   -  -  -   -  -      -   -   -   -   -   S   L   -   -  -                     
    7002 Bronshten         -          -      -   -  -  -   -  -      -   -   -   -   -   S   S   -   -  -                     
-   7052 -                 1988 VQ2   -      -   -  -  -   -  -      -   -   -   -   -   Caa Cgh -   -  -                     
+   7052 -                 1988_VQ2   -      -   -  -  -   -  -      -   -   -   -   -   Caa Cgh -   -  -                     
    7056 Kierkegaard       -          -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
    7081 Ludibunda         -          -      -   -  -  -   -  -      -   -   -   K   s   -   -   -   -  -                     
    7110 -                 -          -      -   -  -  -   -  -      -   -   -   Ch  s   -   -   -   -  -                     
@@ -2465,7 +2465,7 @@
    7245 -                 -          -      -   -  -  -   -  -      -   -   -   L   s   -   -   -   -  -                     
    7304 Namiki            -          -      -   -  -  -   -  -      -   -   -   Ld  s   -   -   -   -  -                     
    7336 Saunders          -          -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
-   7341 -                 1991 VK    -      -   -  -  -   -  -      -   S   s   Sq  s   -   -   Q   a  -                     
+   7341 -                 1991_VK    -      -   -  -  -   -  -      -   S   s   Sq  s   -   -   Q   a  -                     
    7353 Kazuya            -          -      -   -  -  -   -  -      -   -   -   -   -   S   L   -   -  -                     
    7358 Oze               -          -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
    7397 -                 -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
@@ -2475,7 +2475,7 @@
    7451 Verbitskaya       -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
    7474 -                 -          -      -   -  -  -   -  -      -   X   s   -   -   -   -   -   -  -                     
    7480 Norwan            -          -      -   -  -  -   -  -      -   -   -   S   s   S   S   -   -  -                     
-   7482 -                 1994 PC1   -      -   -  -  -   -  -      -   -   -   S   s   S   Sa  -   -  -                     
+   7482 -                 1994_PC1   -      -   -  -  -   -  -      -   -   -   S   s   S   Sa  -   -  -                     
    7496 Miroslavholub     -          -      -   -  -  -   -  -      -   -   -   -   -   Caa Ch  -   -  -                     
    7512 Monicalazzarin    -          -      -   -  -  -   -  -      -   -   -   Ch  s   -   -   -   -  -                     
    7516 Kranjc            -          -      -   -  -  -   -  -      -   -   -   -   -   D   D   -   -  -                     
@@ -2496,27 +2496,27 @@
    8106 Carpino           -          -      -   -  -  -   -  -      -   -   -   -   -   C   C   -   -  -                     
    8176 -                 -          -      -   -  -  -   -  -      -   S   s   Q   s   -   -   -   -  -                     
    8333 -                 -          -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
-   8334 -                 1984 CF    -      -   -  -  -   -  -      -   -   -   S   s   -   -   S   a  -                     
+   8334 -                 1984_CF    -      -   -  -  -   -  -      -   -   -   S   s   -   -   S   a  -                     
    8444 Popovich          -          -      -   -  -  -   -  -      -   -   -   -   -   -   -   S   e  -                     
    8450 Egorov            -          -      -   -  -  -   -  -      -   -   -   C   s   -   -   -   -  -                     
    8513 -                 -          -      -   -  -  -   -  -      -   -   -   D   s   -   -   -   -  -                     
    8516 Hyakkai           -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
-   8518 -                 1992 DM6   -      -   -  -  -   -  -      -   -   -   -   -   B   B   -   -  -                     
+   8518 -                 1992_DM6   -      -   -  -  -   -  -      -   -   -   -   -   B   B   -   -  -                     
    8566 -                 -          -      -   -  -  -   -  -      -   -   -   *** s   -   -   -   -  -                     
-   8795 -                 1981 EO9   -      -   -  -  -   -  -      -   -   -   -   -   C   X   -   -  -                     
+   8795 -                 1981_EO9   -      -   -  -  -   -  -      -   -   -   -   -   C   X   -   -  -                     
    8906 Yano              -          -      -   -  -  -   -  -      -   -   -   -   -   B   Cb  -   -  -                     
-   9219 -                 1995 WO8   -      -   -  -  -   -  -      -   -   -   -   -   B   B   -   -  -                     
+   9219 -                 1995_WO8   -      -   -  -  -   -  -      -   -   -   -   -   B   B   -   -  -                     
    9400 -                 -          -      -   -  -  -   -  -      -   -   -   Sr  s   -   -   -   -  -                     
    9970 -                 -          -      -   -  -  -   -  -      -   -   -   Cb  s   -   -   -   -  -                     
-  10007 -                 1976 YF3   -      -   -  -  -   -  -      -   -   -   -   -   C   C   -   -  -                     
-  10094 -                 1991 DK    -      -   -  -  -   -  -      -   -   -   -   -   S   K   -   -  -                     
+  10007 -                 1976_YF3   -      -   -  -  -   -  -      -   -   -   -   -   C   C   -   -  -                     
+  10094 -                 1991_DK    -      -   -  -  -   -  -      -   -   -   -   -   S   K   -   -  -                     
   10165 -                 -          -      -   -  -  -   -  -      -   -   -   L   s   -   -   -   -  -                     
   10199 Chariklo          -          -      -   -  -  -   -  -      -   -   -   D   s   -   -   -   -  -                     
   10261 Nikdollezhal'     -          -      -   -  -  -   -  -      -   -   -   -   -   X   Xk  -   -  -                     
   10473 -                 -          -      -   -  -  -   -  -      -   -   -   K   s   -   -   -   -  -                     
   10504 Doga              -          -      -   -  -  -   -  -      -   -   -   Sl  s   -   -   -   -  -                     
   10563 Izhdubar          -          -      -   -  -  -   -  -      -   -   -   Q   s   -   -   -   -  -                     
-  11066 Sigurd            1992 CC1   -      -   -  -  -   -  -      -   S   s   -   -   -   -   -   -  -                     
+  11066 Sigurd            1992_CC1   -      -   -  -  -   -  -      -   S   s   -   -   -   -   -   -  -                     
   11079 Mitsunori         -          -      -   -  -  -   -  -      -   -   -   -   -   S   S   -   -  -                     
   11311 Peleus            -          -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
   11500 -                 -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
@@ -2526,90 +2526,90 @@
   12281 Chaumont          -          -      -   -  -  -   -  -      -   -   -   X   s   -   -   -   -  -                     
   12447 Yatescup          -          -      -   -  -  -   -  -      -   -   -   -   -   S   S   -   -  -                     
   12711 -                 -          -      -   -  -  -   -  -      -   -   -   Sr  s   -   -   -   -  -                     
-  12746 -                 1975 RC    S      2   -  -  -   -  -      -   -   -   -   -   -   -   -   -  1975 U2 in TRIAD      
+  12746 -                 1975_RC    S      2   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -      
   13111 Papacosmas        -          -      -   -  -  -   -  -      -   -   -   -   -   A   Sl  -   -  -                     
   13651 -                 -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
-  14465 -                 1993 NB    -      -   -  -  -   -  -      -   -   -   -   -   D   D   -   -  -                     
+  14465 -                 1993_NB    -      -   -  -  -   -  -      -   -   -   -   -   D   D   -   -  -                     
   16657 -                 -          -      -   -  -  -   -  -      -   -   -   Sr  s   -   -   -   -  -                     
   16960 -                 -          -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
-  17274 -                 2000 LC16  -      -   -  -  -   -  -      -   -   -   -   -   -   -   D   d  -                     
+  17274 -                 2000_LC16  -      -   -  -  -   -  -      -   -   -   -   -   -   -   D   d  -                     
   17480 -                 -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
   17511 -                 -          -      -   -  -  -   -  -      -   -   -   X   s   -   -   -   -  -                     
   18514 -                 -          -      -   -  -  -   -  -      -   -   -   Xc  s   -   -   -   -  -                     
-  18736 -                 1998 NU    -      -   -  -  -   -  -      -   -   -   -   -   -   -   Sw  d  -                     
+  18736 -                 1998_NU    -      -   -  -  -   -  -      -   -   -   -   -   -   -   Sw  d  -                     
   19127 Olegefremov       -          -      -   -  -  -   -  -      -   -   -   -   -   -   -   Srw e  -                     
-  19356 -                 1997 GH3   -      -   -  -  -   -  -      -   -   -   S   s   -   -   Sq  a  -                     
+  19356 -                 1997_GH3   -      -   -  -  -   -  -      -   -   -   S   s   -   -   Sq  a  -                     
   20255 -                 -          -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
-  20786 -                 2000 RG62  -      -   -  -  -   -  -      -   -   -   -   -   -   -   Sq: d  -                     
-  20790 -                 2000 SE45  -      -   -  -  -   -  -      -   -   -   -   -   -   -   S   d  -                     
+  20786 -                 2000_RG62  -      -   -  -  -   -  -      -   -   -   -   -   -   -   Sq: d  -                     
+  20790 -                 2000_SE45  -      -   -  -  -   -  -      -   -   -   -   -   -   -   S   d  -                     
   22449 -                 -          -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
-  22771 -                 1999 CU3   -      -   -  -  -   -  -      -   -   -   -   -   -   -   S   d  -                     
+  22771 -                 1999_CU3   -      -   -  -  -   -  -      -   -   -   -   -   -   -   S   d  -                     
   23548 -                 -          -      -   -  -  -   -  -      -   -   -   Q   s   -   -   -   -  -                     
-  24475 -                 2000 VN2   -      -   -  -  -   -  -      -   -   -   -   -   -   -   Sw  d  -                     
-  25330 -                 1999 KV4   -      -   -  -  -   -  -      -   -   -   -   -   -   -   Xk: d  -                     
+  24475 -                 2000_VN2   -      -   -  -  -   -  -      -   -   -   -   -   -   -   Sw  d  -                     
+  25330 -                 1999_KV4   -      -   -  -  -   -  -      -   -   -   -   -   -   -   Xk: d  -                     
   26209 -                 -          -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
   26879 Haines            -          -      -   -  -  -   -  -      -   -   -   -   -   S   S   -   -  -                     
   31345 -                 -          -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
-  35107 -                 1991 VH    -      -   -  -  -   -  -      -   -   -   Sk  s   -   -   Sq  a  -                     
-  36284 -                 2000 DM8   -      -   -  -  -   -  -      -   -   -   -   -   -   -   K   d  -                     
-  43754 -                 1983 AA    -      -   -  -  -   -  -      -   -   -   -   -   S   Sl  -   -  -                     
-  47035 -                 1998 WS    -      -   -  -  -   -  -      -   -   -   Sr  s   -   -   -   -  -                     
-  48603 -                 1995 BC2   -      -   -  -  -   -  -      -   -   -   X   s   -   -   -   -  -                     
-  53435 -                 1999 VM40  -      -   -  -  -   -  -      -   -   -   -   -   -   -   Srw g  -                     
-  54690 -                 2001 EB    -      -   -  -  -   -  -      -   -   -   -   -   -   -   S   d  -                     
-  65679 -                 1989 UQ    -      -   -  -  -   -  -      -   -   -   B   s   -   -   -   -  -                     
-  65706 -                 1992 NA    -      -   -  -  -   -  -      -   C   s   -   -   -   -   -   -  -                     
-  66146 -                 1998 TU3   -      -   -  -  -   -  -      -   -   -   -   -   -   -   Q   e  -                     
-  81952 -                 2000 PG13  -      -   -  -  -   -  -      -   -   -   -   -   -   -   D   d  -                     
-  85490 -                 1997 SE5   -      -   -  -  -   -  -      -   -   -   T   s   -   -   -   -  -                     
-  85774 -                 1998 UT18  -      -   -  -  -   -  -      -   -   -   C   s   -   -   -   -  -                     
-  86450 -                 2000 CK33  -      -   -  -  -   -  -      -   -   -   -   -   -   -   L   d  -                     
-  86819 -                 2000 GK137 -      -   -  -  -   -  -      -   -   -   -   -   -   -   Sq  d  -                     
-  89355 -                 2001 VS78  -      -   -  -  -   -  -      -   -   -   -   -   -   -   Sr  a  -                     
-  96177 -                 1984 BC    D      4   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
-  98943 -                 2001 CC21  -      -   -  -  -   -  -      -   -   -   -   -   -   -   Sw  f  -                     
-  99907 -                 1989 VA    -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   Sr  a  -                     
-  99913 -                 1997 CZ5   -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
- 100480 -                 1996 UK    -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
- 100756 -                 1998 FM5   -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
- 100926 -                 1998 MQ    -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
- 129493 -                 1995 BM2   -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
- 136564 -                 1977 VA    XC     2   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
- 136745 -                 1995 WL8   -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
- 136793 -                 1997 AQ18  -      -   -  -  -   -  -      -   -   -   C   s   -   -   -   -  -                     
- 136795 -                 1997 BQ    -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
- 137052 -                 1998 VO33  -      -   -  -  -   -  -      -   -   -   V   s   -   -   -   -  -                     
- 137062 -                 1998 WM    -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   Sr  a  -                     
- 137158 -                 1999 FB    -      -   -  -  -   -  -      -   -   -   Q   s   -   -   -   -  -                     
- 138258 -                 2000 GD2   -      -   -  -  -   -  -      -   -   -   -   -   -   -   Sq  d  -                     
- 152563 -                 1992 BF    -      -   -  -  -   -  -      -   -   -   Xc  s   -   -   -   -  -                     
- 152679 -                 1998 KU2   -      -   -  -  -   -  -      -   -   -   Cb  s   -   -   -   -  -                     
- 161989 Cacus             1978 CA    S      2   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
- 162011 -                 1994 AB1   -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
- 162058 -                 1997 AE12  -      -   -  -  -   -  -      -   -   -   -   -   -   -   Q   a  -                     
- 162142 -                 1998 VR    -      -   -  -  -   -  -      -   -   -   Sk  s   -   -   -   -  -                     
- 162781 -                 2000 XL44  -      -   -  -  -   -  -      -   -   -   -   -   -   -   S   d  -                     
- 175706 -                 1996 FG3   -      -   -  -  -   -  -      -   -   -   C   s   -   -   -   -  -                     
- 192563 -                 1998 WZ6   -      -   -  -  -   -  -      -   -   -   V   s   -   -   -   -  -                     
- 200840 -                 2001 XN254 -      -   -  -  -   -  -      -   -   -   -   -   -   -   S   d  -                     
- 207970 -                 1996 BZ3   -      -   -  -  -   -  -      -   -   -   X   s   -   -   -   -  -                     
-      0 -                 1991 XB    -      -   -  -  -   -  -      -   SX  s   -   -   -   -   -   -  -                     
-      0 -                 1992 UB    -      -   -  -  -   -  -      -   X   s   -   -   -   -   -   -  -                     
-      0 -                 1993 TQ2   -      -   -  -  -   -  -      -   -   -   Sa  s   -   -   -   -  -                     
-      0 -                 1994 AW1   -      -   -  -  -   -  -      -   -   -   Sa  s   -   -   -   -  -                     
-      0 -                 1995 WQ5   -      -   -  -  -   -  -      -   -   -   Ch  s   -   -   -   -  -                     
-      0 -                 1996 FQ3   -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
-      0 -                 1996 PW    -      -   -  -  -   -  -      -   -   -   Ld  s   -   -   -   -  -                     
-      0 -                 1997 AC11  -      -   -  -  -   -  -      -   -   -   Xc  s   -   -   -   -  -                     
-      0 -                 1997 GL3   -      -   -  -  -   -  -      -   -   -   V   s   -   -   -   -  -                     
-      0 -                 1997 RT    -      -   -  -  -   -  -      -   -   -   O   s   -   -   -   -  -                     
-      0 -                 1997 TT25  -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
-      0 -                 1997 UH9   -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
-      0 -                 1997 US9   -      -   -  -  -   -  -      -   -   -   Q   s   -   -   -   -  -                     
-      0 -                 1998 QR15  -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
-      0 -                 1998 SG2   -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
-      0 -                 1999 EE5   -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
-      0 -                 1999 FA    -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
-      0 -                 2001 TX16  -      -   -  -  -   -  -      -   -   -   -   -   -   -   X   d  -                     
-      0 -                 2002 AA    -      -   -  -  -   -  -      -   -   -   -   -   -   -   S   d  -                     
-      0 -                 2002 AV    -      -   -  -  -   -  -      -   -   -   -   -   -   -   S   d  -                     
+  35107 -                 1991_VH    -      -   -  -  -   -  -      -   -   -   Sk  s   -   -   Sq  a  -                     
+  36284 -                 2000_DM8   -      -   -  -  -   -  -      -   -   -   -   -   -   -   K   d  -                     
+  43754 -                 1983_AA    -      -   -  -  -   -  -      -   -   -   -   -   S   Sl  -   -  -                     
+  47035 -                 1998_WS    -      -   -  -  -   -  -      -   -   -   Sr  s   -   -   -   -  -                     
+  48603 -                 1995_BC2   -      -   -  -  -   -  -      -   -   -   X   s   -   -   -   -  -                     
+  53435 -                 1999_VM40  -      -   -  -  -   -  -      -   -   -   -   -   -   -   Srw g  -                     
+  54690 -                 2001_EB    -      -   -  -  -   -  -      -   -   -   -   -   -   -   S   d  -                     
+  65679 -                 1989_UQ    -      -   -  -  -   -  -      -   -   -   B   s   -   -   -   -  -                     
+  65706 -                 1992_NA    -      -   -  -  -   -  -      -   C   s   -   -   -   -   -   -  -                     
+  66146 -                 1998_TU3   -      -   -  -  -   -  -      -   -   -   -   -   -   -   Q   e  -                     
+  81952 -                 2000_PG13  -      -   -  -  -   -  -      -   -   -   -   -   -   -   D   d  -                     
+  85490 -                 1997_SE5   -      -   -  -  -   -  -      -   -   -   T   s   -   -   -   -  -                     
+  85774 -                 1998_UT18  -      -   -  -  -   -  -      -   -   -   C   s   -   -   -   -  -                     
+  86450 -                 2000_CK33  -      -   -  -  -   -  -      -   -   -   -   -   -   -   L   d  -                     
+  86819 -                 2000_GK137 -      -   -  -  -   -  -      -   -   -   -   -   -   -   Sq  d  -                     
+  89355 -                 2001_VS78  -      -   -  -  -   -  -      -   -   -   -   -   -   -   Sr  a  -                     
+  96177 -                 1984_BC    D      4   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
+  98943 -                 2001_CC21  -      -   -  -  -   -  -      -   -   -   -   -   -   -   Sw  f  -                     
+  99907 -                 1989_VA    -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   Sr  a  -                     
+  99913 -                 1997_CZ5   -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
+ 100480 -                 1996_UK    -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
+ 100756 -                 1998_FM5   -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
+ 100926 -                 1998_MQ    -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
+ 129493 -                 1995_BM2   -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
+ 136564 -                 1977_VA    XC     2   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
+ 136745 -                 1995_WL8   -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
+ 136793 -                 1997_AQ18  -      -   -  -  -   -  -      -   -   -   C   s   -   -   -   -  -                     
+ 136795 -                 1997_BQ    -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
+ 137052 -                 1998_VO33  -      -   -  -  -   -  -      -   -   -   V   s   -   -   -   -  -                     
+ 137062 -                 1998_WM    -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   Sr  a  -                     
+ 137158 -                 1999_FB    -      -   -  -  -   -  -      -   -   -   Q   s   -   -   -   -  -                     
+ 138258 -                 2000_GD2   -      -   -  -  -   -  -      -   -   -   -   -   -   -   Sq  d  -                     
+ 152563 -                 1992_BF    -      -   -  -  -   -  -      -   -   -   Xc  s   -   -   -   -  -                     
+ 152679 -                 1998_KU2   -      -   -  -  -   -  -      -   -   -   Cb  s   -   -   -   -  -                     
+ 161989 Cacus             1978_CA    S      2   -  -  -   -  -      -   -   -   -   -   -   -   -   -  -                     
+ 162011 -                 1994_AB1   -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
+ 162058 -                 1997_AE12  -      -   -  -  -   -  -      -   -   -   -   -   -   -   Q   a  -                     
+ 162142 -                 1998_VR    -      -   -  -  -   -  -      -   -   -   Sk  s   -   -   -   -  -                     
+ 162781 -                 2000_XL44  -      -   -  -  -   -  -      -   -   -   -   -   -   -   S   d  -                     
+ 175706 -                 1996_FG3   -      -   -  -  -   -  -      -   -   -   C   s   -   -   -   -  -                     
+ 192563 -                 1998_WZ6   -      -   -  -  -   -  -      -   -   -   V   s   -   -   -   -  -                     
+ 200840 -                 2001_XN254 -      -   -  -  -   -  -      -   -   -   -   -   -   -   S   d  -                     
+ 207970 -                 1996_BZ3   -      -   -  -  -   -  -      -   -   -   X   s   -   -   -   -  -                     
+      0 -                 1991_XB    -      -   -  -  -   -  -      -   SX  s   -   -   -   -   -   -  -                     
+      0 -                 1992_UB    -      -   -  -  -   -  -      -   X   s   -   -   -   -   -   -  -                     
+      0 -                 1993_TQ2   -      -   -  -  -   -  -      -   -   -   Sa  s   -   -   -   -  -                     
+      0 -                 1994_AW1   -      -   -  -  -   -  -      -   -   -   Sa  s   -   -   -   -  -                     
+      0 -                 1995_WQ5   -      -   -  -  -   -  -      -   -   -   Ch  s   -   -   -   -  -                     
+      0 -                 1996_FQ3   -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
+      0 -                 1996_PW    -      -   -  -  -   -  -      -   -   -   Ld  s   -   -   -   -  -                     
+      0 -                 1997_AC11  -      -   -  -  -   -  -      -   -   -   Xc  s   -   -   -   -  -                     
+      0 -                 1997_GL3   -      -   -  -  -   -  -      -   -   -   V   s   -   -   -   -  -                     
+      0 -                 1997_RT    -      -   -  -  -   -  -      -   -   -   O   s   -   -   -   -  -                     
+      0 -                 1997_TT25  -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
+      0 -                 1997_UH9   -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
+      0 -                 1997_US9   -      -   -  -  -   -  -      -   -   -   Q   s   -   -   -   -  -                     
+      0 -                 1998_QR15  -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
+      0 -                 1998_SG2   -      -   -  -  -   -  -      -   -   -   Sq  s   -   -   -   -  -                     
+      0 -                 1999_EE5   -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
+      0 -                 1999_FA    -      -   -  -  -   -  -      -   -   -   S   s   -   -   -   -  -                     
+      0 -                 2001_TX16  -      -   -  -  -   -  -      -   -   -   -   -   -   -   X   d  -                     
+      0 -                 2002_AA    -      -   -  -  -   -  -      -   -   -   -   -   -   -   S   d  -                     
+      0 -                 2002_AV    -      -   -  -  -   -  -      -   -   -   -   -   -   -   S   d  -                     
