@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1A00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Observational xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1A00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:ast.zappala-etal.families:data:family_tab</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>Zappalà et al. (1995) asteroid families</title>
+    <information_model_version>1.10.0.0</information_model_version>
+    <product_class>Product_Observational</product_class>
+    <Citation_Information>
+      <author_list>Zappala, V., Bendjoya, Ph.,  Cellino, A.,  Farinella, P., and  Froeschle, C.</author_list>
+      <publication_year>2020</publication_year>
+      <description>This data set includes the asteroid dynamical family classifications of Zappala et
+al. (1995) [ZAPPALAETAL1995] for 12,487 numbered and unnumbered asteroids.           
+The proper elements recorded in this file are those actually used to derive the
+family memberships.  They are those of version 6.8.5 of the fully analytical theory
+by Milani and Knezevic, reported in Milani and Knezevic (1994) [MILANI&amp;KNEZEVIC1994].
+  
+NOTE: In the following descriptions, QRL (quasi-random level) is the nominal level of
+distance used for family identification, defined as the minimum distance threshold in
+m/s at which a chance grouping including some minimum number of objects survives. 
+See Zappala et al. (1995) [ZAPPALAETAL1995] for further details.</description>
+    </Citation_Information>
+  </Identification_Area>
+  <Observation_Area>
+    <Time_Coordinates>
+      <start_date_time xsi:nil="true" nilReason="inapplicable" />
+      <stop_date_time xsi:nil="true" nilReason="inapplicable" />
+    </Time_Coordinates>
+    <Primary_Result_Summary>
+      <purpose>Science</purpose>
+      <processing_level>Derived</processing_level>
+      <Science_Facets>
+        <discipline_name>Small Bodies</discipline_name>
+        <facet1>Dynamical Properties</facet1>
+      </Science_Facets>
+    </Primary_Result_Summary>
+    <Investigation_Area>
+      <name>None</name>
+      <type>Other Investigation</type>
+      <Internal_Reference>
+        <lid_reference>urn:nasa:pds:context:investigation:individual.none</lid_reference>
+        <reference_type>data_to_investigation</reference_type>
+      </Internal_Reference>
+    </Investigation_Area>
+    <Observing_System>
+      <Observing_System_Component>
+        <name>Various Ground-Based Telescopes</name>
+        <type>Telescope</type>
+        <description>This instrument host is used for those datasets that consist of surveys taken,
+usually over long periods of time, at various ground-based observatories.  The
+VARGBTEL host is used when it is not possible or practical to attempt to determine
+which specific observatory and/or telescope was used for individual results reported.
+Some additional more specific information may be available in the published
+references cited in the corresponding data set description.</description>
+      </Observing_System_Component>
+      <Observing_System_Component>
+        <name>Various Ground-Based Detectors</name>
+        <type>Instrument</type>
+        <description>This instrument name is used when a data set consists of observations taken, usually
+over a long period of time, by various types of detectors attached to one or more
+ground-based telescopes.  The VARGBDET identifier is used when it is not possible or
+not practical to identify even the generic type of detector associated with the
+individual observations comprising the data set.  The published references listed in
+the corresponding data set description may provide more information.</description>
+      </Observing_System_Component>
+    </Observing_System>
+    <Target_Identification>
+      <name>Multiple Asteroids</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+  </Observation_Area>
+  <File_Area_Observational>
+    <File>
+      <file_name>family.tab</file_name>
+      <local_identifier>file</local_identifier>
+      <creation_date_time>2020-05-07</creation_date_time>
+      <file_size unit="byte">799168</file_size>
+      <records>12487</records>
+    </File>
+    <Table_Character>
+      <local_identifier>table</local_identifier>
+      <offset unit="byte">0</offset>
+      <records>12487</records>
+      <record_delimiter>Carriage-Return Line-Feed</record_delimiter>
+      <Record_Character>
+        <fields>8</fields>
+        <groups>0</groups>
+        <record_length unit="byte">64</record_length>
+        <Field_Character>
+          <name>ASTEROID_NUMBER</name>
+          <field_number>1</field_number>
+          <field_location unit="byte">1</field_location>
+          <data_type>ASCII_Integer</data_type>
+          <field_length unit="byte">6</field_length>
+          <field_format>%6d</field_format>
+          <description>Asteroid catalog number, if any.  This file is sorted by asteroid ID, with numbered
+asteroids listed first.</description>
+          <Special_Constants>
+            <missing_constant>-99999</missing_constant>
+          </Special_Constants>
+        </Field_Character>
+        <Field_Character>
+          <name>PROVISIONAL_ID</name>
+          <field_number>2</field_number>
+          <field_location unit="byte">8</field_location>
+          <data_type>ASCII_String</data_type>
+          <field_length unit="byte">9</field_length>
+          <field_format>%-9s</field_format>
+          <description>Asteroid provisional designation, if provided.  The provisional designation is used
+to identify asteroids without a number as of the compilation date of the original
+file.  The file is sorted on asteroid ID, with unnumbered asteroids listed after
+numbered asteroids.</description>
+          <Special_Constants>
+            <missing_constant>---</missing_constant>
+          </Special_Constants>
+        </Field_Character>
+        <Field_Character>
+          <name>PROPER_A</name>
+          <field_number>3</field_number>
+          <field_location unit="byte">18</field_location>
+          <data_type>ASCII_Real</data_type>
+          <field_length unit="byte">7</field_length>
+          <field_format>%7.5f</field_format>
+          <unit>au</unit>
+          <description>Proper semimajor axis, a'. 
+Asteroids having 2.065 au &lt; a' &lt; 3.275 au were included in this analysis.</description>
+        </Field_Character>
+        <Field_Character>
+          <name>PROPER_ECC</name>
+          <field_number>4</field_number>
+          <field_location unit="byte">26</field_location>
+          <data_type>ASCII_Real</data_type>
+          <field_length unit="byte">6</field_length>
+          <field_format>%6.4f</field_format>
+          <description>Proper eccentricity, e'.                                 
+Asteroids having e' &gt; 0.3 were not included in this analysis</description>
+        </Field_Character>
+        <Field_Character>
+          <name>SINE_PROPER_INCL</name>
+          <field_number>5</field_number>
+          <field_location unit="byte">33</field_location>
+          <data_type>ASCII_Real</data_type>
+          <field_length unit="byte">6</field_length>
+          <field_format>%6.4f</field_format>
+          <description>Sine of proper inclination, sin(i').                     Asteroids having sin(i') &gt;
+0.3 were not included in this analysis.</description>
+        </Field_Character>
+        <Field_Character>
+          <name>FAMILY_NAME</name>
+          <field_number>6</field_number>
+          <field_location unit="byte">40</field_location>
+          <data_type>ASCII_String</data_type>
+          <field_length unit="byte">18</field_length>
+          <field_format>%-18s</field_format>
+          <description>The name of the family to which this asteroid belongs, if any.          
+Each family is named after the lowest-numbered member of the family at the nominal
+level of distance used for family identification. If the asteroid is not a member of
+any family in this analysis, this field contains a flag value.</description>
+          <Special_Constants>
+            <missing_constant>---</missing_constant>
+          </Special_Constants>
+        </Field_Character>
+        <Field_Character>
+          <name>CLUMP_FLAG</name>
+          <field_number>7</field_number>
+          <field_location unit="byte">59</field_location>
+          <data_type>ASCII_String</data_type>
+          <field_length unit="byte">2</field_length>
+          <field_format>%-2s</field_format>
+          <description>This flag indicates whether the grouping is a nominal family (F) or a clump (C),
+based on the definitions of those categories given in Zappala, et al (1995).  The
+field contains a flag   
+value if there is no applicable FAMILY_NAME in the preceding field.</description>
+          <Special_Constants>
+            <missing_constant>-</missing_constant>
+          </Special_Constants>
+        </Field_Character>
+        <Field_Character>
+          <name>CONFIDENCE_LEVEL</name>
+          <field_number>8</field_number>
+          <field_location unit="byte">62</field_location>
+          <data_type>ASCII_Integer</data_type>
+          <field_length unit="byte">1</field_length>
+          <field_format>%1d</field_format>
+          <description>An integer confidence level in the range 1-3,  
+'1' being the lowest confidence level and '3' the highest.  It corresponds to the
+quality code (QC) of Zappala, et al. (1995), defined as follows:                     
+                               
+                                                                              
+QC   = 1  refers to objects not belonging to the   family at the nominal quasi-random
+level (QRL) distance, but belonging to it at a level of distance equal to QRL+20m/s. 
+            
+                                                                              
+QC   = 2  refers to objects belonging to the family at the nominal QRL, but not
+meeting the criterion for QC=3.                
+                                                                              
+QC   = 3  refers to objects which belong to the family at the nominal QRL, and are
+further found to belong to a subgrouping of the family containing at least 2/5 of the
+total members (found at QRL) at a distance level equal to QRL-20m/s.                 
+                               
+                                                                              
+Only records with a FAMILY_NAME value and a CLUMP_FLAG of 'F' contain a
+CONFIDENCE_LEVEL value.  Records with a CLUMP_FLAG of 'C' have a flag value of '0'
+(zero) in this field.  Records without a FAMILY_NAME have a flag value of '9' in this
+field.</description>
+          <Special_Constants>
+            <missing_constant>0</missing_constant>
+          </Special_Constants>
+        </Field_Character>
+      </Record_Character>
+    </Table_Character>
+  </File_Area_Observational>
+</Product_Observational>
+
