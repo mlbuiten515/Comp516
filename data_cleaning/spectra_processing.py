@@ -45,4 +45,4 @@ sorted_columns = numeric_cols_sorted + string_cols_sorted
 
 marsset_data = marsset_data[sorted_columns]
 
-
+marsset_data.to_csv('test_spectral_data')

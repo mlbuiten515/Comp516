@@ -3,6 +3,7 @@ import pandas as pd
 from sklearn.ensemble import ExtraTreesClassifier
 from sklearn.model_selection import GridSearchCV, train_test_split
 from sklearn.metrics import accuracy_score
+import sqlite3
 
 family_data = r'data_cleaning\nesvorny_families.csv'
 column_types = {'ASTEROID_NUMBER': int, 'A_PROP': float, 'PROPER_ECC': float,
